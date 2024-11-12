@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-items .nav-link {
+    color: #555; /* Customize the color */
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Optional: Only show sidebar items when collapsed */
+  @media (max-width: 992px) {
+    .side-bar {
+      display: none;
+    }
+   
+  }
+  .title{
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+
+ 
+  
